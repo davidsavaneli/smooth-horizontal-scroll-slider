@@ -1,0 +1,18 @@
+.Shss-wrapper {
+  position: relative;
+}
+
+.Shss-slides {
+  position: relative;
+  display: flex;
+  width: max-content;
+  min-width: 100vw;
+}
+
+.Shss-slides.Shss-direction-ltr {
+  justify-content: flex-start;
+}
+
+.Shss-slides.Shss-direction-rtl {
+  justify-content: flex-end;
+}

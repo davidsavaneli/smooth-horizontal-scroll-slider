@@ -1,0 +1,24 @@
+.Shss-slide {
+  position: relative;
+}
+
+.Shss-slide-active-points {
+  position: absolute;
+  width: 99.9%;
+  height: 99.9%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  margin: auto;
+}
+
+.Shss-slide-item {
+  position: relative;
+  width: auto;
+  min-width: auto;
+  height: auto;
+  border: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+}

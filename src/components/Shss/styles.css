@@ -1,0 +1,39 @@
+.Shss {
+  position: relative;
+  box-sizing: border-box !important;
+}
+
+.Shss * {
+  box-sizing: border-box !important;
+}
+
+.Shss-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.Shss-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.Shss-progress-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #333;
+  transform-origin: 0%;
+  width: 100vw;
+}
+
+.Shss-progress-bar.Shss-progress-bar-position-top {
+  top: 0;
+}
+
+.Shss-progress-bar.Shss-progress-bar-position-bottom {
+  bottom: 0;
+}
