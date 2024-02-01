@@ -1,6 +1,6 @@
 {
   "name": "smooth-horizontal-scroll-slider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Smooth Horizontal Scroll Slider seamlessly integrates smooth horizontal scrolling in vertical containers, simplifying dynamic layouts and enhancing UI animations.",
   "private": false,
   "main": "dist/cjs/index.js",
@@ -33,10 +33,6 @@
     "README.md"
   ],
   "dependencies": {
-    "clsx": "^2.0.0",
-    "framer-motion": "^10.16.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
@@ -58,6 +54,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.16.5",
     "rimraf": "^5.0.1",
     "rollup": "^3.24.0",
     "rollup-plugin-dts": "^5.3.0",
